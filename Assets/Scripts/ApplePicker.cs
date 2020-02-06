@@ -9,6 +9,7 @@ public class ApplePicker : MonoBehaviour
 	public int numBaskets = 3;
 	public float basketBottomY = -14f;
 	public float basketSpacingY = 2f;
+
 	void Start()
 	{
 		for (int i = 0; i < numBaskets; i++)
@@ -19,4 +20,15 @@ public class ApplePicker : MonoBehaviour
 			tBasketGO.transform.position = pos;
 		}
 	}
+
+	public void AppleDestroyed()
+	{
+		//	Destroy	all	of	the	falling	apples
+		GameObject[] tAppleArray = GameObject.FindGameObjectsWithTag("Apple"); //	b
+		foreach (GameObject tGO in tAppleArray)
+		{
+			Destroy(tGO);
+		}
+	}
+
 }
