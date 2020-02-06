@@ -316,10 +316,21 @@ PrefabInstance:
       propertyPath: chanceToChangeDirections
       value: 0.02
       objectReference: {fileID: 0}
+    - target: {fileID: 428475934923456537, guid: 51efcf5146e8d824b995d4e55ebbc54d,
+        type: 3}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 9100977286082902849, guid: dfb19d4dea6bf23408c3406f7e9694de,
+        type: 3}
     - target: {fileID: 3566769372216674264, guid: 51efcf5146e8d824b995d4e55ebbc54d,
         type: 3}
       propertyPath: m_Name
       value: AppleTree
+      objectReference: {fileID: 0}
+    - target: {fileID: 3566769372216674266, guid: 51efcf5146e8d824b995d4e55ebbc54d,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3566769372216674267, guid: 51efcf5146e8d824b995d4e55ebbc54d,
         type: 3}
