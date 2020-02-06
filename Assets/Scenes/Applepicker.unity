@@ -311,6 +311,11 @@ PrefabInstance:
       propertyPath: speed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 428475934923456537, guid: 51efcf5146e8d824b995d4e55ebbc54d,
+        type: 3}
+      propertyPath: chanceToChangeDirections
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 3566769372216674264, guid: 51efcf5146e8d824b995d4e55ebbc54d,
         type: 3}
       propertyPath: m_Name
